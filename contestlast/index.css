@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    border-bottom: 1px solid white;
+    border-width: 100%;
+}
+.right-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+h3,h2{
+    font-weight: 300;
+}
+h1{
+    font-weight: 400;
+    font-size: 3rem;
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+    margin:4rem 6rem;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 70%;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+}
+
+input::placeholder{
+    font-size: 1rem;
+    color: white;
+}
+
+#error-success{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+button{
+    width: 200px;
+    padding: 0.8rem;
+    background-color: white;
+    color: black;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+button:hover{
+    cursor: pointer;
+}
+
+h3:hover,h2:hover{
+    cursor: pointer;
+}
